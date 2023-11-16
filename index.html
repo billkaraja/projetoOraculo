@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="decription" content="#">
+    <meta name="author" content="Oráculo o Guardião">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="img/png" href="img/lojalogo.png" class="logotipo">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Oráculo Guardião :: Página Principal</title>
+</head>
+<body>
+    <div class="d-flex flex-column wrapper">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary border-bottom shadow-sm mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="/"><b>Oráculo Guardião</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="quemsomos.html">Quem Somos</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="cursos.html">Cursos</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contato.html">Denuncie</a>
+                        </li>                                                
+                    </ul>
+                    <div class="align-self-end">
+                        <ul class="navbar-nav">                            
+                            <li class="nav-item">                                
+                                <a href="cadastro.html" class="nav-link text-white">Cadastre - se</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="login.html" class="nav-link text-white">Entrar</a>
+                            </li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div id="carouselMain" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="img/foto.jpeg" class="d-none d-md-block w-100" alt="">
+                        <img src="img/slides/slidesmall.jpg" class="d-block d-md-none  w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/foto01.jpeg" class="d-none d-md-block w-100" alt="">
+                        <img src="img/slides/slidesmall.jpg" class="d-block d-md-none  w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/foto02.jpeg" class="d-none d-md-block w-100" alt="">
+                        <img src="img/slides/slidesmall.jpg" class="d-block d-md-none  w-100" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+            <hr class="mt-3">
+        </div>
+        <main class="flex-fill">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <form class="justify-content-center justify-content-md-start mb-3 mb-md-0">
+                            <div class="input-group input-group-sm">
+                                <input type="text" class="form-control" placeholder="Digite aqui o que procura">
+                                <button class="btn btn-danger">Buscar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+                            <form class="d-inline-block">
+                                <select class="form-select form-select-sm">
+                                    <option>Ordenar pelo nome</option>
+                                    <option>Ordenar pelo menor preço</option>
+                                    <option>Ordenar pelo maior preço</option>
+                                </select>
+                            </form>
+                            <nav class="d-inline-block me-3">
+                                <ul class="pagination pagination-sm my-0">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">1</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">2</a>
+                                    </li>
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#">3</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+                <hr mt-3>
+
+                <div class="row g-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/foto05.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Educação</h5>
+                              <p class="card-text">A educação desempenha um papel fundamental na conscientização
+                                 das pessoas sobre questões ambientais e na promoção de atitudes e comportamentos sustentáveis.
+                                 A importância usada a tecnologia para alcançar esse objetivo.</p>
+                              <a href="#" class="btn btn-primary">SAIBA mais</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/tecnologia.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Tecnologia</h5>
+                              <p class="card-text">A tecnologia pode ser aplicada para desenvolver soluções inovadoras e práticas 
+                                sustentáveis que ajudam na preservação ambiental. O desenvolvimento de energias
+                                 renováveis, tecnologias de reciclagem e que reduzem o impacto ambiental.</p>
+                              <a href="#" class="btn btn-primary">SAIBA mais</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/foto05.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Ancestralidade</h5>
+                              <p class="card-text">A preservação ambiental é o resultado das ações tomadas com base na educação e no uso
+                                 da tecnologia. É a prática de proteger e conservar os recursos naturais e o meio ambiente, a fim de garantir
+                                  um planeta saudável para as gerações futuras.</p>
+                              <a href="#" class="btn btn-primary">SAIBA mais</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/foto03.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Novas Gerações</h5>
+                              <p class="card-text">A preservação ambiental é o resultado das ações tomadas com base na educação e no uso
+                                 da tecnologia. É a prática de proteger e conservar os recursos naturais e o meio ambiente, a fim de garantir
+                                  um planeta saudável para as gerações futuras.</p>
+                              <a href="#" class="btn btn-primary">SAIBA mais</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/foto04.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Preservação Ambiental</h5>
+                              <p class="card-text">A preservação ambiental é o resultado das ações tomadas com base na educação e no uso
+                                 da tecnologia. É a prática de proteger e conservar os recursos naturais e o meio ambiente, a fim de garantir
+                                  um planeta saudável para as gerações futuras.</p>
+                              <a href="#" class="btn btn-primary">SAIBA mais</a>
+                            </div>
+                        </div> 
+                    </div>
+                    
+            <hr class="mt-3">
+                          
+            <section class="sobre-empreendedor">
+                <div class="center">
+                    <img class="sobre-empreendedor-img" src="img/comunidade.jpeg">
+                    <div class="sobre-empreendedor-content">
+                        <h2>Comunidade Colaborativa</h2>
+                        <p>É fundamental destacar que este projeto levará em estreita colaboração com as próprias comunidades indígenas. Nosso compromisso é ouvir, aprender e agir em parceria, confirmando que são os membros dessas comunidades que melhor entendem suas próprias necessidades e aspirações.</p>
+                       <p>Ao longo deste projeto, comprometemo-nos a respeitar a diversidade cultural, a autonomia das comunidades e a promover a justiça social. Cada passo que damos é guiado pela certeza de que o fortalecimento das comunidades indígenas contribui para um mundo mais justo, inclusivo e sustentável.</p>     
+                      
+                    </div>
+                </div><!--center-->
+            </section><!--sobre-empreendedor-->
+
+            <hr class="mt-3">
+
+                <section><!--Nosso Vídeo-->
+                    <div class="container"><!--inicio container vídeo-->
+                        
+                        <h3 class="text-center mb-3">Nossos Vídeos</h3>
+                        <div class="row d-flex"><!--início linha-->
+                            <figure class="col-lg-3 img-fluid">
+                                <iframe src="https://www.youtube.com/embed/EBwBwwTplQ0?si=Ba69nXGtnk4guVOb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </figure>
+                            <br>
+                            <div class="col-lg-3">
+                                <article class="ml-3 text-justify ">
+                                    A empresa é ..pois ..é foi criada em 1982 e significa algo que você não quer responder .
+                                    A empresa é ..pois ..é foi criada em 1982 e significa algo que você não quer responder .
+                                </article>
+                            </div>
+                            <figure class="col-lg-3 img-fluid">
+                                <iframe src="https://www.youtube.com/embed/EBwBwwTplQ0?si=Ba69nXGtnk4guVOb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </figure>
+                            <br>
+                            <div class="col-lg-3">
+                                <article class="ml-3 text-justify">
+                                    A empresa é ..pois ..é foi criada em 1982 e significa algo que você não quer responder .
+                                    A empresa é ..pois ..é foi criada em 1982 e significa algo que você não quer responder .
+                                </article>
+                            </div>
+        
+                        </div><!--fim linha-->        
+        
+                    </div><!--fim container vídeo-->
+        
+                </section><!-- Fim nosso Vídeo-->
+                   
+            <hr class="mt-3">
+                <section class="equipe-desenvolvedores container"><!--inicio equipe-->
+                    <h2 class="text-center mt-3 mb-3">
+                        Equipe Desenvolvedores Full Stack
+                    </h2>
+                    <div class="row"><!--início linha-->
+                        <div class="media  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><!-- início media-->
+                            <img src="img/robot2.png" alt="Inahuri" class="inahuri img-fluid img-thumbnail mt-4 mr-2">
+                            <div class="media-body">
+                                <h3 class="h5">
+                                    Inahuri
+                                </h3>
+                                <article class="mb-3">
+                                    “Se raiz forte, arvore sobrevive” “Faixa só serve para segurar calças” “Não existe mau aluno, só mau professor” “Se vem de dentro de você é sempre certo”
+                                </article>
+                            </div>
+                        </div><!--fim media-->
+        
+                        <div class="media col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><!-- início media-->
+                            <img src="img/robot2.png" alt="Libra" class="mestre img-fluid img-thumbnail mt-4 mr-2">
+                            <div class="media-body">
+                                <h3 class="h5">
+                                    Albertho Pepper
+                                </h3>
+                                <article class="mb-3">
+                                    “Se raiz forte, arvore sobrevive” “Faixa só serve para segurar calças” “Não existe mau aluno, só mau professor” “Se vem de dentro de você é sempre certo”
+                                </article>
+                            </div>
+                        </div><!--fim media-->
+                        <div class="media col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><!-- início media-->
+                            <img src="img/robot2.png" alt="Daniel" class="mestre img-fluid img-thumbnail mt-4 mr-2">
+                            <div class="media-body">
+                                <h3 class="h5">
+                                    Vinicius
+                                </h3>
+                                <article class="mb-3">
+                                    “Se raiz forte, arvore sobrevive” “Faixa só serve para segurar calças” “Não existe mau aluno, só mau professor” “Se vem de dentro de você é sempre certo”
+                                </article>
+                            </div>
+                        </div><!--fim media-->
+                        <div class="media col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><!-- início media-->
+                            <img src="img/robot2.png" alt="Johnny" class="mestre img-fluid img-thumbnail mt-4 mr-2">
+                            <div class="media-body">
+                                <h3 class="h5">
+                                    Thawã
+                                </h3>
+                                <article class="mb-3">
+                                    “Se raiz forte, arvore sobrevive” “Faixa só serve para segurar calças” “Não existe mau aluno, só mau professor” “Se vem de dentro de você é sempre certo”
+                                </article>
+                            </div>
+                        </div><!--fim media-->
+                        <div class="media col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><!-- início media-->
+                            <img src="img/robot2.png" alt="Genkai" class="mestre img-fluid img-thumbnail mt-4 mr-2">
+                            <div class="media-body">
+                                <h3 class="h5">
+                                    Rapha
+                                </h3>
+                                <article class="mb-3">
+                                    “Se raiz forte, arvore sobrevive” “Faixa só serve para segurar calças” “Não existe mau aluno, só mau professor” “Se vem de dentro de você é sempre certo”
+                                </article>
+                            </div>
+                        </div><!--fim media-->
+                        <div class="media col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><!-- início media-->
+                            <img src="img/robot2.png" alt="Dos Magos" class="mestre img-fluid img-thumbnail mt-4 mr-2">
+                            <div class="media-body">
+                                <h3 class="h5">
+                                    Luene
+                                </h3>
+                                <article class="mb-3">
+                                    “Se raiz forte, arvore sobrevive” “Faixa só serve para segurar calças” “Não existe mau aluno, só mau professor” “Se vem de dentro de você é sempre certo”
+                                </article>
+                            </div><!--fim media-->
+                        </div><!--fim linha-->
+                    </div>        
+                </section><!-- Fim equipe--> 
+                
+                <section class="depoimentos">
+                    <div class="center">
+                        <div class="depoimentos-chamada">
+                        <h2>Diretoria Executiva</h2>
+                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate.
+                             Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        </div>
+                
+                        <div class="carrousel">
+                
+                            <div class="carrousel-single">
+                                <div class="carrousel-single-box">
+                                    <p><i class="fas fa-quote-right"></i> ecessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate.
+                                         Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>   
+                                </div>
+                                <img src="img/robot.png" />
+                                <p>Domilto Inahuri Karajá</p>
+                                <span>CEO e Instrutor</span>
+                            </div>
+                            <div class="carrousel-single">
+                                <div class="carrousel-single-box">
+                                    <p><i class="fas fa-quote-right"></i>  ecessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate.
+                                         Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>   
+                                </div>
+                                <img src="img/robot.png" />
+                                <p>Domilto Inahuri Karajá</p>
+                                <span>CEO e Instrutor</span>
+                            </div>
+                            <div class="carrousel-single">
+                                <div class="carrousel-single-box">
+                                    <p><i class="fas fa-quote-right"></i>  ecessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate.
+                                         Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>   
+                                </div>
+                                <img src="img/robot.png" />
+                                <p>Domilto Inahuri Karajá</p>
+                                <span>CEO e Instrutor</span>
+                            </div>
+                        </div>  
+                
+       </main><!-- Fim do conteudo principal--> 
+
+        <footer class="border-top text-muted bg-dark">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-12 col-md-4 text-center">
+                        &copy; Copyright 2023 - Todos direitos reservados.                       
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <a href="privacidade.html" class="text-decoration-none text-white">
+                            Política de Privacidade
+                        </a><br>
+                        <a href="termos.html" class="text-decoration-none text-white">
+                            Termos de Uso
+                        </a><br>  
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <a href="contato.html" class="text-decoration-none text-white">
+                            Contato pelo Site
+                        </a><br>
+                        E-mail: <a href="mailto:email@dominio.com" class="text-decoration-none text-white">
+                            oraculoguardiao@gmail.com
+                        </a><br>
+                        Telefone: <a href="phone:28999990000" class="text-decoration-none text-white">
+                            (63) 98488-1092
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
